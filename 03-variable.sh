@@ -22,3 +22,8 @@
 
  echo Value of x from cli - $x
  echo Value of y from cli - $y
+
+ #Approach 2 - bash 03-variable.sh 100 200
+
+ echo First argument - $1
+ echo 2nd of argument - $2
