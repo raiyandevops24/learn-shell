@@ -27,3 +27,5 @@
 
  echo First argument - $1
  echo 2nd of argument - $2
+ echo All argument - $*
+ echo Argument count - $#
