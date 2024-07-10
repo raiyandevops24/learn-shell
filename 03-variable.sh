@@ -6,4 +6,4 @@
  echo ${name} training faculty is ${faculty}
 
  apple=20
- Apple price is - ${apple}Dollar
+ echo Apple price is - ${apple}Dollar
