@@ -11,7 +11,7 @@
  #variable substitution
  #command substitution
  date=$(date)
- echo Today date is - date
+ echo Today date is - $date
 
  #Arithmaetic Substitution
  add=$((2+3+4))
