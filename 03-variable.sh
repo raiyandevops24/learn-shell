@@ -16,3 +16,9 @@
  #Arithmaetic Substitution
  add=$((2+3+4))
  echo addition of 2+3+4 - $add
+
+ # access variables from CLI
+ #Approach 1 - x=100 y=200 bash 03-variable.sh
+
+ echo Value of x from cli - $x
+ echo Value of y from cli - $y
