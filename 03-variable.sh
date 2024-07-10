@@ -19,13 +19,15 @@
 
  # access variables from CLI
  #Approach 1 - x=100 y=200 bash 03-variable.sh
-
  echo Value of x from cli - $x
  echo Value of y from cli - $y
 
  #Approach 2 - bash 03-variable.sh 100 200
-
  echo First argument - $1
  echo 2nd of argument - $2
  echo All argument - $*
  echo Argument count - $#
+
+ Approach 3 - export z=200 03-variable.sh
+ echo Environment variable - $z
+

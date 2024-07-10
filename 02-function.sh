@@ -1,6 +1,12 @@
 SAMPLE(){
-  echo Sample Function test
+  echo Sample Function
 }
 
 SAMPLE
 SAMPLE
+
+DEMO (){
+  echo First argument - $1
+}
+
+DEMO abc
